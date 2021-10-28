@@ -28,8 +28,8 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = കൂടുതൽ സിനിമകൾക്കും മറ്റു വിവരങ്ങൾക്കുമായി ഞങ്ങളുടെ ഗ്രൂപ്പിൽ ജോയിൻ ചെയ്യൂ
-@efcinema,
+                caption =@efcinema,
+ 
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
